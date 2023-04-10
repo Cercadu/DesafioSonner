@@ -1,0 +1,19 @@
+.footer {
+  position: fixed;
+  z-index: 100;
+  bottom: 0;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.footer > span {
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+.verde.v-middle img {
+  height: 3rem;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}

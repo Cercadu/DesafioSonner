@@ -1,0 +1,12 @@
+<ng-container *ngIf="! authService.isLoggedIn(); else loggedInContent">
+  <app-header></app-header>
+  <app-login></app-login>
+  <app-footer></app-footer>
+</ng-container>
+
+<ng-template #loggedInContent>
+  <app-header></app-header>
+  <app-nav></app-nav>
+  <app-footer></app-footer>
+</ng-template>
+

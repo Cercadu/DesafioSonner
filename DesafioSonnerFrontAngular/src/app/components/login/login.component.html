@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="card bg-dark text-white mt-4 col-md-6 offset-md-3">
+    <div class="card-header text-center">
+      <h4>Login</h4>
+    </div>
+    <div class="card-body p-4">
+      <form (ngSubmit)="onSubmit()">
+        <div class="form-group">
+          <label for="email" class="text-muted">Email:</label>
+          <input type="email" id="email" name="email" [(ngModel)]="email" required class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="senha" class="text-muted">Senha:</label>
+          <input type="password" id="senha" name="{{'senha'}}" [(ngModel)]="senha" required class="form-control">
+        </div>
+        <div *ngIf="errorMessage" id="message">{{errorMessage}}</div>
+        <button type="submit" class="btn btn-success btn-block mt-4">Entrar</button>
+      </form>
+    </div>
+  </div>
+</div>
