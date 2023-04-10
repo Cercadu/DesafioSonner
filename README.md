@@ -1,7 +1,7 @@
 # DesafioSonner
  Desafio - Programador Fullstack - Angular - Spring Boot
   
-# Backend Utilizando utilizado:
+# Backend  utilizado:
    ● Java - Versão 8+
    ● Spring Boot
    ● Maven
